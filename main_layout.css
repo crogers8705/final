@@ -1,0 +1,117 @@
+/* Created by Chris Rogers on 12/10/2015
+All files for this Web site link to this sheet */
+
+/*body*/
+body {
+   background-color:white;
+   font-size:0.9em;
+   font-family: verdana, Arial, Helvetica, sans-serif, cursive;
+}
+
+#container {
+ width: 90%;
+ margin: 10px auto;
+ border: 2px solid black;
+ border-radius: 22px;
+}
+
+header{
+ background-color: black;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+ text-align: center;
+}
+
+nav{
+ padding: .5em;
+ background-color:blue;
+ text-align: center;
+}
+
+nav ul li {
+ display: inline;
+ list-style-type: none;
+}
+
+nav a {
+ padding: .25em;
+ color: white;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+nav a:hover{
+ color: blue;
+ background-color: white;
+}
+
+#activities {
+ width: 20%;
+ float: left;
+ background-color: blue;
+ color: white;
+ text-align: center;
+}
+
+#activities h3, #games h2 {
+ margin-bottom: 0.5em;
+ color: white;
+ background-color: blue;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+#activities p {
+ padding: 0 1% 1% 5%;
+ text-align: center;
+ font-family: Comic Sans MF;
+}
+
+#main {
+ padding: 0.5%;
+ margin: 0 20% 0 20%;
+}
+
+#main h1 {
+ margin-bottom: 1em;
+ text-align: center;
+
+}
+
+#activites p, #main p {
+ margin-bottom: 1em;
+ text-indent: 2em;
+}
+
+#games {
+ width: 20%;
+ color: white;
+ background-color: blue;
+ float:right;
+ font-family: Comic Sans MF;
+}
+
+#games ul {
+ padding: 1em;
+ list-style-type: square;
+ list-style-position: inside;
+}
+
+#games ul li {
+ margin-bottom: 1em;
+}
+
+footer {
+ margin-top: 1em;
+ padding: 1em auto;
+ border-top: solid 2px black;
+ clear: both;
+ font-weight: bold;
+ text-align: center;
+ background-color:blue;
+ color: white;
+}
+
+figure {
+ text-align: center;
+}
